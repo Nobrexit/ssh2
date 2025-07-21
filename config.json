@@ -1,0 +1,47 @@
+{
+  "bot_token": "SEU_TOKEN_DO_BOT_AQUI",
+  "mercado_pago_access_token": "SEU_ACCESS_TOKEN_MP_AQUI",
+  "admin_ids": [123456789],
+  "notification_group_id": -1001234567890,
+  "ssh_servers": [
+    {
+      "name": "Servidor Principal",
+      "ip": "SEU-IP-AQUI",
+      "password": "SUA-SENHA-AQUI",
+      "port": 22,
+      "active": true
+    },
+    {
+      "name": "Servidor Backup 1",
+      "ip": "SEU-IP-AQUI",
+      "password": "SUA-SENHA-AQUI", 
+      "port": 22,
+      "active": true
+    },
+    {
+      "name": "Servidor Backup 2",
+      "ip": "SEU-IP-AQUI",
+      "password": "SUA-SENHA-AQUI",
+      "port": 22,
+      "active": true
+    }
+  ],
+  "pricing": {
+    "weekly": {
+      "price": 10.00,
+      "duration_days": 7,
+      "description": "Plano Semanal"
+    },
+    "monthly": {
+      "price": 20.00,
+      "duration_days": 30,
+      "description": "Plano Mensal"
+    }
+  },
+  "messages": {
+    "welcome": "🌟 Bem-vindo ao SSH Bot Premium! 🌟",
+    "test_limit": "❌ Você já criou um teste nas últimas 24 horas.",
+    "server_error": "❌ Erro temporário. Tente novamente em alguns minutos."
+  }
+}
+
